@@ -1,45 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Gihda's Poetry Website</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gihda's Poetry Website</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #fdfdfd;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 2em;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 0.5em;
+    }
+    .poem, .writeup {
+      background-color: #f9f9f9;
+      padding: 1em;
+      border-radius: 10px;
+      margin-bottom: 2em;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    input, textarea {
+      margin-bottom: 1em;
+      padding: 0.75em;
+      font-size: 1em;
+    }
+    button {
+      padding: 0.75em;
+      font-size: 1em;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Gihda's Poetry</h1>
-        <p>Welcome to my little world of words ✨</p>
-    </header>
 
-    <main>
-        <section>
-            <h2>My First Poem</h2>
-            <p>
-                Where did the road lead me?<br><br>
+<header>
+  <h1>Gihda's Poetry & Expression</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#creative">Creative Expression</a>
+    <a href="#community">Connection & Community</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
 
-                Where did the road lead me,<br>
-                Or should I say, where did I lead myself?<br>
-                All I wanted was to live a fairytale and smile all the way through.<br>
-                Others wondered how I stayed so happy,<br>
-                Others wondered if I ever shed tears.<br>
-                Well, I am no better than a human with floss,<br>
-                No better than a mere mortal with fairytale dreams.<br><br>
+<section id="home">
+  <h2>Welcome</h2>
+  <p>Hello, and welcome to my space of words, thoughts, and heart. Here, you’ll find poems, reflections, and a place to connect. Let’s grow together.</p>
+</section>
 
-                But still, I wander with hope in my heart,<br>
-                Chasing a future, where the road won’t fall apart.<br>
-                Though the path is uncertain, and the end far away,<br>
-                I’ll keep walking, day by day.<br><br>
+<section id="creative">
+  <h2>Creative Expression</h2>
 
-                For the road will lead me where I need to go,<br>
-                And in my heart, I’ll always know.<br>
-                The fairytale may be fleeting,<br>
-                But the joy of the journey is worth repeating.
-            </p>
-        </section>
-    </main>
+  <div class="poem">
+    <h3>Where did the road lead me</h3>
+    <p>
+      where did the road lead me,<br>
+      or should i say where did i lead myself?<br>
+      all i wanted was to live a fairytale and smile all the way through.<br>
+      others wondered how i stayed so happy,<br>
+      others wondered if i ever shed tears,<br>
+      well, i am no better than a human with floss,<br>
+      no better than a mere mortal with fairytale dreams.
+    </p>
+  </div>
 
-    <footer>
-        <p>&copy; 2025 Gihda. All rights reserved.</p>
-    </footer>
+  <div class="writeup">
+    <h3>Know You</h3>
+    <p>
+      What is your life's worth?<br>
+      You live for others?<br><br>
+      When are you going to be the master of your very own game?<br>
+      Instead, you sit at the mercy of people<br>
+      and seek after their lives as your only source of entertainment.<br><br>
+      Oh, darling, you are worth more.<br>
+      You are so good — you just need guidance<br>
+      to discover who you truly want to be.<br><br>
+      Then, you will find your life's quest.
+    </p>
+  </div>
+
+</section>
+
+<section id="community">
+  <h2>Connection & Community</h2>
+  <p>Have thoughts, reflections, or just want to say hi? Fill out the form below!</p>
+  <form>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<section id="about">
+  <h2>About</h2>
+  <p>Hi, I’m Gihda,a lover of words, an exploerer and a brilliant young mind. This site is my digital garden — a place where I grow through expression and invite you to walk alongside me.</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Gihda. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
+
+              
