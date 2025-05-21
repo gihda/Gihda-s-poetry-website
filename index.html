@@ -7,53 +7,103 @@
   <style>
     body {
       font-family: 'Georgia', serif;
-      background-color: #fdfdfd;
+      background-color: #fdfaf6;
+      color: #333;
+      line-height: 1.8;
       margin: 0;
       padding: 0;
     }
-    header, footer {
-      background-color: #333;
-      color: white;
+
+    header {
+      background-color: #f3e8ff;
       text-align: center;
-      padding: 1em 0;
+      padding: 2rem;
+      border-bottom: 2px solid #e0c8ff;
     }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
     nav a {
-      color: white;
+      color: #6a329f;
       margin: 0 15px;
       text-decoration: none;
+      font-weight: bold;
     }
-    section {
-      padding: 2em;
+
+    header p {
+      font-style: italic;
+      font-size: 1.2rem;
+    }
+
+    main {
+      padding: 2rem;
       max-width: 800px;
       margin: auto;
     }
+
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
     h2 {
-      border-bottom: 2px solid #333;
+      color: #6a329f;
+      border-bottom: 1px solid #e0c8ff;
       padding-bottom: 0.5em;
     }
+
     .poem, .writeup {
-      background-color: #f9f9f9;
+      background-color: #ffffff;
       padding: 1em;
       border-radius: 10px;
       margin-bottom: 2em;
+      box-shadow: 0 0 8px rgba(106, 50, 159, 0.1);
     }
+
+    .know-you {
+      background-image: url('know-you-bg.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      padding: 2em;
+      border-radius: 15px;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+    }
+
     form {
       display: flex;
       flex-direction: column;
     }
+
     input, textarea {
       margin-bottom: 1em;
       padding: 0.75em;
       font-size: 1em;
+      border: 1px solid #e0c8ff;
+      border-radius: 5px;
     }
+
     button {
       padding: 0.75em;
       font-size: 1em;
-      background-color: #333;
+      background-color: #6a329f;
       color: white;
       border: none;
       border-radius: 5px;
       cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #f3e8ff;
+      border-top: 1px solid #e0c8ff;
+      margin-top: 2rem;
     }
   </style>
 </head>
@@ -61,6 +111,7 @@
 
 <header>
   <h1>Gihda's Poetry & Expression</h1>
+  <p>“This is where thoughts find form.”</p>
   <nav>
     <a href="#home">Home</a>
     <a href="#creative">Creative Expression</a>
@@ -90,7 +141,7 @@
     </p>
   </div>
 
-  <div class="writeup">
+  <div class="writeup know-you">
     <h3>Know You</h3>
     <p>
       What is your life's worth?<br>
@@ -104,7 +155,6 @@
       Then, you will find your life's quest.
     </p>
   </div>
-
 </section>
 
 <section id="community">
@@ -120,7 +170,7 @@
 
 <section id="about">
   <h2>About</h2>
-  <p>Hi, I’m Gihda,a lover of words, an exploerer and a brilliant young mind. This site is my digital garden — a place where I grow through expression and invite you to walk alongside me.</p>
+  <p>Hi, I’m Gihda. A lover of words, rhythm, and all things that speak to the soul. This site is my digital garden — a place where I grow through expression and invite you to walk alongside me.</p>
 </section>
 
 <footer>
@@ -129,5 +179,4 @@
 
 </body>
 </html>
-
               
