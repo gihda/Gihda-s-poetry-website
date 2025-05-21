@@ -1,2 +1,2 @@
-# Gihda-s-poetry-website
-A personal website for my poems.
+# Gihda-s-art-website
+Home for my artwork.
